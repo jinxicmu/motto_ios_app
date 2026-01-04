@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "date_index": 1,
+    "word_cn": "恒",
+    "word_en": "Perseverance",
+    "sentence_cn": "不积跬步，无以至千里。",
+    "sentence_en": "A journey of a thousand miles begins with a single step.",
+    "author": "Laozi"
+  },
+  {
+    "id": 2,
+    "date_index": 2,
+    "word_cn": "静",
+    "word_en": "Stillness",
+    "sentence_cn": "非淡泊无以明志，非宁静无以致远。",
+    "sentence_en": "Only with a peaceful mind can one achieve great things.",
+    "author": "Zhuge Liang"
+  },
+  {
+    "id": 3,
+    "date_index": 3,
+    "word_cn": "勇",
+    "word_en": "Courage",
+    "sentence_cn": "知耻而后勇。",
+    "sentence_en": "To know shame is to be on the verge of courage.",
+    "author": "Confucius"
+  },
+  {
+    "id": 4,
+    "date_index": 4,
+    "word_cn": "真",
+    "word_en": "Truth",
+    "sentence_cn": "朝闻道，夕死可矣。",
+    "sentence_en": "If I hear the Tao in the morning, I can die in the evening without regret.",
+    "author": "Confucius"
+  },
+  {
+    "id": 5,
+    "date_index": 5,
+    "word_cn": "悟",
+    "word_en": "Awakening",
+    "sentence_cn": "本来无一物，何处惹尘埃。",
+    "sentence_en": "Originally there is nothing; wherever can the dust alight?",
+    "author": "Huineng"
+  },
+  {
+    "id": 6,
+    "date_index": 6,
+    "word_cn": "行",
+    "word_en": "Action",
+    "sentence_cn": "知行合一。",
+    "sentence_en": "Knowledge and action are one.",
+    "author": "Wang Yangming"
+  },
+  {
+    "id": 7,
+    "date_index": 7,
+    "word_cn": "简",
+    "word_en": "Simplicity",
+    "sentence_cn": "大音希声，大象无形。",
+    "sentence_en": "Great sound is hard to hear; great form has no shape.",
+    "author": "Laozi"
+  },
+  {
+    "id": 8,
+    "date_index": 8,
+    "word_cn": "柔",
+    "word_en": "Softness",
+    "sentence_cn": "天下之至柔，驰骋天下之至坚。",
+    "sentence_en": "The softest thing in the universe overcomes the hardest.",
+    "author": "Laozi"
+  },
+  {
+    "id": 9,
+    "date_index": 9,
+    "word_cn": "忍",
+    "word_en": "Patience",
+    "sentence_cn": "忍一时风平浪静。",
+    "sentence_en": "Endure for a moment, and the storm will pass.",
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 10,
+    "date_index": 10,
+    "word_cn": "水",
+    "word_en": "Water",
+    "sentence_cn": "上善若水。",
+    "sentence_en": "The highest excellence is like water.",
+    "author": "Laozi"
+  },
+  {
+    "id": 11,
+    "date_index": 11,
+    "word_cn": "初",
+    "word_en": "Beginner",
+    "sentence_cn": "不忘初心，方得始终。",
+    "sentence_en": "Never forget why you started, and your mission can be accomplished.",
+    "author": "Avatamsaka Sutra"
+  },
+  {
+    "id": 12,
+    "date_index": 12,
+    "word_cn": "志",
+    "word_en": "Will",
+    "sentence_cn": "有志者，事竟成。",
+    "sentence_en": "Where there is a will, there is a way.",
+    "author": "Fan Ye"
+  },
+  {
+    "id": 13,
+    "date_index": 13,
+    "word_cn": "时",
+    "word_en": "Time",
+    "sentence_cn": "逝者如斯",
+    "sentence_en": "Time flows away like the water in the river.",
+    "author": "Confucius"
+  },
+  {
+    "id": 14,
+    "date_index": 14,
+    "word_cn": "虚",
+    "word_en": "Emptiness",
+    "sentence_cn": "虚怀若谷。",
+    "sentence_en": "Be as open and empty as a valley.",
+    "author": "Laozi"
+  },
+  {
+    "id": 15,
+    "date_index": 15,
+    "word_cn": "变",
+    "word_en": "Change",
+    "sentence_cn": "穷则变，变则通，通则久。",
+    "sentence_en": "When all else fails, change implies success.",
+    "author": "I Ching"
+  },
+  {
+    "id": 16,
+    "date_index": 16,
+    "word_cn": "如",
+    "word_en": "Be Like",
+    "sentence_cn": "像水一样，我的朋友。",
+    "sentence_en": "Be water, my friend.",
+    "author": "Bruce Lee"
+  },
+  {
+    "id": 17,
+    "date_index": 17,
+    "word_cn": "止",
+    "word_en": "Stop",
+    "sentence_cn": "知止而后有定。",
+    "sentence_en": "Know where to stop, and you will have stability.",
+    "author": "Great Learning"
+  },
+  {
+    "id": 18,
+    "date_index": 18,
+    "word_cn": "信",
+    "word_en": "Trust",
+    "sentence_cn": "人无信不立。",
+    "sentence_en": "Without trust, a person cannot stand.",
+    "author": "Confucius"
+  },
+  {
+    "id": 19,
+    "date_index": 19,
+    "word_cn": "省",
+    "word_en": "Reflect",
+    "sentence_cn": "吾日三省吾身。",
+    "sentence_en": "I reflect on myself three times a day.",
+    "author": "Confucius"
+  },
+  {
+    "id": 20,
+    "date_index": 20,
+    "word_cn": "敏",
+    "word_en": "Astute",
+    "sentence_cn": "敏而好学，不耻下问。",
+    "sentence_en": "Be quick to learn and not ashamed to ask questions.",
+    "author": "Confucius"
+  },
+  {
+    "id": 21,
+    "date_index": 21,
+    "word_cn": "乐",
+    "word_en": "Joy",
+    "sentence_cn": "知之者不如好之者，好之者不如乐之者。",
+    "sentence_en": "To know it is not as good as to love it; to love it is not as good as to delight in it.",
+    "author": "Confucius"
+  },
+  {
+    "id": 22,
+    "date_index": 22,
+    "word_cn": "和",
+    "word_en": "Harmony",
+    "sentence_cn": "君子和而不同。",
+    "sentence_en": "Gentlemen seek harmony but not uniformity.",
+    "author": "Confucius"
+  },
+  {
+    "id": 23,
+    "date_index": 23,
+    "word_cn": "善",
+    "word_en": "Goodness",
+    "sentence_cn": "勿以恶小而为之，勿以善小而不为。",
+    "sentence_en": "Do not do evil just because it is small; do not ignore good just because it is small.",
+    "author": "Liu Bei"
+  },
+  {
+    "id": 24,
+    "date_index": 24,
+    "word_cn": "独",
+    "word_en": "Solitude",
+    "sentence_cn": "独坐幽篁里，弹琴复长啸。",
+    "sentence_en": "Sitting alone in the bamboo grove, playing the zither and whistling.",
+    "author": "Wang Wei"
+  },
+  {
+    "id": 25,
+    "date_index": 25,
+    "word_cn": "山",
+    "word_en": "Mountain",
+    "sentence_cn": "采菊东篱下，悠然见南山。",
+    "sentence_en": "Picking chrysanthemums under the eastern fence, leisurely seeing the Southern Mountain.",
+    "author": "Tao Yuanming"
+  },
+  {
+    "id": 26,
+    "date_index": 26,
+    "word_cn": "空",
+    "word_en": "Void",
+    "sentence_cn": "色即是空，空即是色。",
+    "sentence_en": "Form is emptiness, emptiness is form.",
+    "author": "Heart Sutra"
+  },
+  {
+    "id": 27,
+    "date_index": 27,
+    "word_cn": "无",
+    "word_en": "Non-being",
+    "sentence_cn": "无为而无不为。",
+    "sentence_en": "Do nothing, and everything happens.",
+    "author": "Laozi"
+  },
+  {
+    "id": 28,
+    "date_index": 28,
+    "word_cn": "心",
+    "word_en": "Heart",
+    "sentence_cn": "随心所欲，不逾矩。",
+    "sentence_en": "Follow the heart's desire without overstepping the line.",
+    "author": "Confucius"
+  },
+  {
+    "id": 29,
+    "date_index": 29,
+    "word_cn": "梦",
+    "word_en": "Dream",
+    "sentence_cn": "庄周梦蝶。",
+    "sentence_en": "Am I a man dreaming I am a butterfly, or a butterfly dreaming I am a man?",
+    "author": "Zhuangzi"
+  },
+  {
+    "id": 30,
+    "date_index": 30,
+    "word_cn": "学",
+    "word_en": "Learn",
+    "sentence_cn": "Stay Hungry. Stay Foolish.",
+    "sentence_en": "Stay Hungry. Stay Foolish.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 31,
+    "date_index": 31,
+    "word_cn": "爱",
+    "word_en": "Love",
+    "sentence_cn": "爱是恒久忍耐。",
+    "sentence_en": "Love is patient, love is kind.",
+    "author": "Corinthians"
+  },
+  {
+    "id": 32,
+    "date_index": 32,
+    "word_cn": "光",
+    "word_en": "Light",
+    "sentence_cn": "万物皆有裂痕，那是光照进来的地方。",
+    "sentence_en": "There is a crack in everything, that's how the light gets in.",
+    "author": "Leonard Cohen"
+  },
+  {
+    "id": 33,
+    "date_index": 33,
+    "word_cn": "海",
+    "word_en": "Ocean",
+    "sentence_cn": "你不是大洋里的一滴水，你是大洋里的一整片海。",
+    "sentence_en": "You are not a drop in the ocean. You are the entire ocean in a drop.",
+    "author": "Rumi"
+  }
+]

@@ -1,0 +1,9 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="#F8F8F5"/>
+  
+  <!-- Circle -->
+  <circle cx="512" cy="400" r="180" fill="#2C3E50"/>
+  
+  <!-- Curved Line (Horizon/Smile) -->
+  <path d="M 150 800 Q 512 600 874 800" stroke="#2C3E50" stroke-width="60" fill="none" stroke-linecap="round"/>
+</svg>

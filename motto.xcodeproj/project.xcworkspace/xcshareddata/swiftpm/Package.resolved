@@ -1,0 +1,33 @@
+{
+  "originHash" : "ec22b7f029c56e8c56edc1419262af0154a81d74cd0d887727210603cc402d15",
+  "pins" : [
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      "state" : {
+        "revision" : "7778cc1ab037c10dbbe026959e51e616bd961be9",
+        "version" : "11.13.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "708a282840c2171ee63bd93b87afa49fe507d70e",
+        "version" : "2.7.0"
+      }
+    },
+    {
+      "identity" : "zarli-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zarli-ai/zarli-ios-sdk",
+      "state" : {
+        "revision" : "697c5c5c58465f5666a531cfc03863462fffb0d4",
+        "version" : "1.3.14"
+      }
+    }
+  ],
+  "version" : 3
+}

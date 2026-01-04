@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3721864F2F08F104004D6065 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3721864E2F08F103004D6065 /* WidgetKit.framework */; };
+		372186512F08F104004D6065 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372186502F08F104004D6065 /* SwiftUI.framework */; };
+		372186622F08F104004D6065 /* MottoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3721864C2F08F103004D6065 /* MottoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		372186742F09E8A8004D6065 /* ZarliAdapterAdMob in Frameworks */ = {isa = PBXBuildFile; productRef = 372186732F09E8A8004D6065 /* ZarliAdapterAdMob */; };
+		372186762F09E8A8004D6065 /* ZarliSDKSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 372186752F09E8A8004D6065 /* ZarliSDKSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372186152F08E410004D6065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372185FF2F08E40F004D6065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372186062F08E40F004D6065;
+			remoteInfo = motto;
+		};
+		3721861F2F08E410004D6065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372185FF2F08E40F004D6065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372186062F08E40F004D6065;
+			remoteInfo = motto;
+		};
+		372186602F08F104004D6065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372185FF2F08E40F004D6065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3721864B2F08F103004D6065;
+			remoteInfo = MottoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		372186672F08F104004D6065 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				372186622F08F104004D6065 /* MottoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		372186072F08E40F004D6065 /* motto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372186142F08E410004D6065 /* mottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721861E2F08E410004D6065 /* mottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721864C2F08F103004D6065 /* MottoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MottoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721864E2F08F103004D6065 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		372186502F08F104004D6065 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		372186632F08F104004D6065 /* Exceptions for "MottoWidget" folder in "MottoWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3721864B2F08F103004D6065 /* MottoWidgetExtension */;
+		};
+		3721866A2F08F228004D6065 /* Exceptions for "motto" folder in "MottoWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/MottoModel.swift,
+				MottoData.json,
+				Services/DataService.swift,
+			);
+			target = 3721864B2F08F103004D6065 /* MottoWidgetExtension */;
+		};
+		3721866F2F08FD50004D6065 /* Exceptions for "motto" folder in "motto" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 372186062F08E40F004D6065 /* motto */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		372186092F08E40F004D6065 /* motto */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3721866F2F08FD50004D6065 /* Exceptions for "motto" folder in "motto" target */,
+				3721866A2F08F228004D6065 /* Exceptions for "motto" folder in "MottoWidgetExtension" target */,
+			);
+			path = motto;
+			sourceTree = "<group>";
+		};
+		372186172F08E410004D6065 /* mottoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mottoTests;
+			sourceTree = "<group>";
+		};
+		372186212F08E410004D6065 /* mottoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mottoUITests;
+			sourceTree = "<group>";
+		};
+		372186522F08F104004D6065 /* MottoWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				372186632F08F104004D6065 /* Exceptions for "MottoWidget" folder in "MottoWidgetExtension" target */,
+			);
+			path = MottoWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372186042F08E40F004D6065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372186762F09E8A8004D6065 /* ZarliSDKSwift in Frameworks */,
+				372186742F09E8A8004D6065 /* ZarliAdapterAdMob in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372186112F08E410004D6065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721861B2F08E410004D6065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372186492F08F103004D6065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372186512F08F104004D6065 /* SwiftUI.framework in Frameworks */,
+				3721864F2F08F104004D6065 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372185FE2F08E40F004D6065 = {
+			isa = PBXGroup;
+			children = (
+				372186092F08E40F004D6065 /* motto */,
+				372186172F08E410004D6065 /* mottoTests */,
+				372186212F08E410004D6065 /* mottoUITests */,
+				372186522F08F104004D6065 /* MottoWidget */,
+				3721864D2F08F103004D6065 /* Frameworks */,
+				372186082F08E40F004D6065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372186082F08E40F004D6065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372186072F08E40F004D6065 /* motto.app */,
+				372186142F08E410004D6065 /* mottoTests.xctest */,
+				3721861E2F08E410004D6065 /* mottoUITests.xctest */,
+				3721864C2F08F103004D6065 /* MottoWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3721864D2F08F103004D6065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3721864E2F08F103004D6065 /* WidgetKit.framework */,
+				372186502F08F104004D6065 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372186062F08E40F004D6065 /* motto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372186282F08E410004D6065 /* Build configuration list for PBXNativeTarget "motto" */;
+			buildPhases = (
+				372186032F08E40F004D6065 /* Sources */,
+				372186042F08E40F004D6065 /* Frameworks */,
+				372186052F08E40F004D6065 /* Resources */,
+				372186672F08F104004D6065 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372186612F08F104004D6065 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				372186092F08E40F004D6065 /* motto */,
+			);
+			name = motto;
+			packageProductDependencies = (
+				372186732F09E8A8004D6065 /* ZarliAdapterAdMob */,
+				372186752F09E8A8004D6065 /* ZarliSDKSwift */,
+			);
+			productName = motto;
+			productReference = 372186072F08E40F004D6065 /* motto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372186132F08E410004D6065 /* mottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3721862B2F08E410004D6065 /* Build configuration list for PBXNativeTarget "mottoTests" */;
+			buildPhases = (
+				372186102F08E410004D6065 /* Sources */,
+				372186112F08E410004D6065 /* Frameworks */,
+				372186122F08E410004D6065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372186162F08E410004D6065 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				372186172F08E410004D6065 /* mottoTests */,
+			);
+			name = mottoTests;
+			packageProductDependencies = (
+			);
+			productName = mottoTests;
+			productReference = 372186142F08E410004D6065 /* mottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3721861D2F08E410004D6065 /* mottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3721862E2F08E410004D6065 /* Build configuration list for PBXNativeTarget "mottoUITests" */;
+			buildPhases = (
+				3721861A2F08E410004D6065 /* Sources */,
+				3721861B2F08E410004D6065 /* Frameworks */,
+				3721861C2F08E410004D6065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372186202F08E410004D6065 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				372186212F08E410004D6065 /* mottoUITests */,
+			);
+			name = mottoUITests;
+			packageProductDependencies = (
+			);
+			productName = mottoUITests;
+			productReference = 3721861E2F08E410004D6065 /* mottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3721864B2F08F103004D6065 /* MottoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372186642F08F104004D6065 /* Build configuration list for PBXNativeTarget "MottoWidgetExtension" */;
+			buildPhases = (
+				372186482F08F103004D6065 /* Sources */,
+				372186492F08F103004D6065 /* Frameworks */,
+				3721864A2F08F103004D6065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				372186522F08F104004D6065 /* MottoWidget */,
+			);
+			name = MottoWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = MottoWidgetExtension;
+			productReference = 3721864C2F08F103004D6065 /* MottoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372185FF2F08E40F004D6065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					372186062F08E40F004D6065 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					372186132F08E410004D6065 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 372186062F08E40F004D6065;
+					};
+					3721861D2F08E410004D6065 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 372186062F08E40F004D6065;
+					};
+					3721864B2F08F103004D6065 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 372186022F08E40F004D6065 /* Build configuration list for PBXProject "motto" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372185FE2F08E40F004D6065;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				372186722F09E8A8004D6065 /* XCRemoteSwiftPackageReference "zarli-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 372186082F08E40F004D6065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372186062F08E40F004D6065 /* motto */,
+				372186132F08E410004D6065 /* mottoTests */,
+				3721861D2F08E410004D6065 /* mottoUITests */,
+				3721864B2F08F103004D6065 /* MottoWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372186052F08E40F004D6065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372186122F08E410004D6065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721861C2F08E410004D6065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721864A2F08F103004D6065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372186032F08E40F004D6065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372186102F08E410004D6065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721861A2F08E410004D6065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372186482F08F103004D6065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372186162F08E410004D6065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372186062F08E40F004D6065 /* motto */;
+			targetProxy = 372186152F08E410004D6065 /* PBXContainerItemProxy */;
+		};
+		372186202F08E410004D6065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372186062F08E40F004D6065 /* motto */;
+			targetProxy = 3721861F2F08E410004D6065 /* PBXContainerItemProxy */;
+		};
+		372186612F08F104004D6065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3721864B2F08F103004D6065 /* MottoWidgetExtension */;
+			targetProxy = 372186602F08F104004D6065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372186262F08E410004D6065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372186272F08E410004D6065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372186292F08E410004D6065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = motto/motto.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82P3DSFJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = motto/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Motto needs this to save mindful minutes.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Motto needs this to save mindful minutes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.motto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3721862A2F08E410004D6065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = motto/motto.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82P3DSFJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = motto/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Motto needs this to save mindful minutes.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Motto needs this to save mindful minutes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.motto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3721862C2F08E410004D6065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.mottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motto";
+			};
+			name = Debug;
+		};
+		3721862D2F08E410004D6065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.mottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motto";
+			};
+			name = Release;
+		};
+		3721862F2F08E410004D6065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.mottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motto;
+			};
+			name = Debug;
+		};
+		372186302F08E410004D6065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.mottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motto;
+			};
+			name = Release;
+		};
+		372186652F08F104004D6065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82P3DSFJV;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MottoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MottoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.motto.MottoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372186662F08F104004D6065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82P3DSFJV;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MottoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MottoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zarli.motto.MottoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372186022F08E40F004D6065 /* Build configuration list for PBXProject "motto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372186262F08E410004D6065 /* Debug */,
+				372186272F08E410004D6065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372186282F08E410004D6065 /* Build configuration list for PBXNativeTarget "motto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372186292F08E410004D6065 /* Debug */,
+				3721862A2F08E410004D6065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3721862B2F08E410004D6065 /* Build configuration list for PBXNativeTarget "mottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721862C2F08E410004D6065 /* Debug */,
+				3721862D2F08E410004D6065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3721862E2F08E410004D6065 /* Build configuration list for PBXNativeTarget "mottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721862F2F08E410004D6065 /* Debug */,
+				372186302F08E410004D6065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372186642F08F104004D6065 /* Build configuration list for PBXNativeTarget "MottoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372186652F08F104004D6065 /* Debug */,
+				372186662F08F104004D6065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		372186722F09E8A8004D6065 /* XCRemoteSwiftPackageReference "zarli-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zarli-ai/zarli-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		372186732F09E8A8004D6065 /* ZarliAdapterAdMob */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372186722F09E8A8004D6065 /* XCRemoteSwiftPackageReference "zarli-ios-sdk" */;
+			productName = ZarliAdapterAdMob;
+		};
+		372186752F09E8A8004D6065 /* ZarliSDKSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372186722F09E8A8004D6065 /* XCRemoteSwiftPackageReference "zarli-ios-sdk" */;
+			productName = ZarliSDKSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 372185FF2F08E40F004D6065 /* Project object */;
+}
